@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 
-import AlarmPopup from "./components/AlarmPopup.jsx"
+
 import BottomMenu from "./components/BottomMenu.jsx"
 import CategoryFilter from "./components/CategoryFilter.jsx"
 import ItemCard from "./components/ItemCard.jsx"
@@ -500,7 +500,7 @@ function App() {
           closeForm={closeForm}
         />
 
-        <AlarmPopup alarmPopup={alarmPopup} stopAlarmForItem={stopAlarmForItem} />
+        
       </main>
     </div>
   )
