@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 
-import AlarmPopup from "./assets/components/AlarmPopup.jsx"
-import BottomMenu from "./assets/components/BottomMenu.jsx"
-import CategoryFilter from "./assets/components/CategoryFilter.jsx"
-import ItemCard from "./assets/components/ItemCard.jsx"
-import RecordModal from "./assets/components/RecordModal.jsx"
-import SearchBar from "./assets/components/SearchBar.jsx"
+import AlarmPopup from "./components/AlarmPopup.jsx"
+import BottomMenu from "./components/BottomMenu.jsx"
+import CategoryFilter from "./components/CategoryFilter.jsx"
+import ItemCard from "./components/ItemCard.jsx"
+import RecordModal from "./components/RecordModal.jsx"
+import SearchBar from "./components/SearchBar.jsx"
 
 import { formatDate, isOverdue, isUpcoming, parseDate } from "./utils/date"
 
